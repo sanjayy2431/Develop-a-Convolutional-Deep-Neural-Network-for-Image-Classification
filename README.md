@@ -138,8 +138,8 @@ def train_model(model, train_loader, num_epochs=3):
         optimizer.step()
         running_loss += loss.item()
 
-    print('Name:RANJAN KUMAR')
-    print('Register Number:212223240138')
+    print('Name:Sanjay V')
+    print('Register Number:212223230188')
     print(f'Epoch [{epoch+1}/{num_epochs}], Loss: {running_loss/len(train_loader):.4f}')
 
 # Train the model
